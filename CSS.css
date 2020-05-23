@@ -1,0 +1,101 @@
+p{
+	color: white;
+	font-size: 22px;
+	text-shadow: 1px 1px 1px #111111;
+	text-align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, 'Times new roman',Arial, Helvetica, Arial;
+
+}
+
+h1{
+
+	text-align: center;
+	color: white;
+}
+
+h2{
+	text-shadow: 1px 1px 1px #111111;
+	color: white;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+header{
+	background-image: -moz-linear-gradient(rgb(6, 6, 212), royalblue);
+	background-image: -webkit-linear-gradient(rgb(6, 6, 212), royalblue);
+	image-rendering: auto;
+	height: 115px;
+	padding: 5px;
+}
+
+footer{
+	clear: both;
+	background-color: royalblue;
+	height: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+img{
+	margin-top: 15px;
+	width: 90px;
+	height: auto;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 100px;
+}
+
+#logo{
+	margin-left: 80px;
+	float: left;
+	size: 10px;
+}
+
+#menu{
+	margin: 60px;
+	float: right;
+}
+
+#menu a{
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px 10px;
+	text-decoration: none;
+	color:white;
+	text-shadow: 1px 1px #5f5454;
+}
+
+#menu a:hover{
+	border-radius: 10px;
+	font-weight: bold;
+	background-color: rgb(11, 11, 145);
+	color: white;
+	-webkit-transition: 0.5s;
+}
+
+#div_principal{
+
+	background-image: url('fundo.jpeg');
+	min-height: 600px;
+	padding: 100px 0px 0px 0px;
+}
+
+#nomeDoSite{
+	margin-left: 10px;
+	margin-top: 40px;
+	float: left;
+	text-align:center;
+	text-shadow: 1px 1px #5f5454; 
+}
